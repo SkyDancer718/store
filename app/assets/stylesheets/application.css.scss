@@ -15,6 +15,7 @@
  background: #ecf4ff;
  padding: 25px;
  border-bottom: 3px solid #466590;
+ border-top: 3px solid #466590;
 
  font: small-caps 40px/40px "Times New Roman", serif;
  color: #1d3960;
@@ -22,7 +23,6 @@
 		
 		img {
  	 		float:left;
- 	 		border: 1px red solid;
  	 		margin-top: - 20px;
  		}
 }
@@ -74,4 +74,39 @@
  margin-left: 15em;
  padding: 1em;
  background: white;
+}
+
+.shop_form {
+ 	fieldset {
+ 	 background: #ecf4ff;
+ 		legend {
+ 	 	 color: #dfd;
+ 		 background: #466590;
+ 		 font-family: sans-serif;
+ 		 padding: 0.2em 1em;
+ 		}
+ 	}
+
+ 	form {
+ 		label {
+ 		 width: 5em;
+ 		 float: left;
+ 		 text-align: right;
+ 		 padding-top: 0.2em;
+ 		 margin-right: 0.1em;
+ 		 display: block;
+ 		}
+ 		
+ 		select, textarea, input {
+ 		 margin-left: 0.5em;
+ 		}
+ 		
+ 		.submit {
+ 		 margin-left: 4em;
+ 		}
+ 		
+ 		br {
+ 		 display: none
+ 		}
+ 	}
 }
